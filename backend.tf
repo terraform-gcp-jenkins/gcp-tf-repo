@@ -4,6 +4,6 @@ terraform {
    //bucket  = "terraform-bucket-tfstate"
    //prefix  = "terraform-test"
    prefix = "key/terraform.tfstate"
-   credentials = "D:/practice/permission.json"
+   credentials = "D:/terraform-gcp/gcp-tf-repo/permission.json"
  }
 }

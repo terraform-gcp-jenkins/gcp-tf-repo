@@ -1,9 +1,9 @@
 terraform {
  backend "gcs" {
-   bucket  = "power-123"
+   bucket  = "tfstate-my-terraform"
    //bucket  = "terraform-bucket-tfstate"
    //prefix  = "terraform-test"
-   prefix = "key/terraform.tfstate"
+   prefix = "tfstate"
    credentials = "D:/terraform-gcp/gcp-tf-repo/permission.json"
  }
 }
